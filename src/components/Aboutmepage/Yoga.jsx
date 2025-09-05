@@ -2,7 +2,7 @@ import React from "react";
 import myVideo from "../../assets/yogavideo.mp4";
 import yogaimg2 from "../../assets/yogaimg2.png";
 // import Footer from "./components/Footer";
-import Footer from "../Footer";
+import Footer from "../footer";
 
 export default function Yoga() {
   return (

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import contactimg1 from "../assets/contactimg1.jpg";
 import phoneringing from "../assets/phoneringing.mp3";
-import Footer from "./Footer";
+import Footer from "./footer";
 
 const Contact = () => {
   const [formData, setFormData] = useState({

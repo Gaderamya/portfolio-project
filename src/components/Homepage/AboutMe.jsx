@@ -6,7 +6,7 @@ import person2 from "../../assets/person2.jpg";
 import person3 from "../../assets/person3.jpg";
 import person4 from "../../assets/person4.jpg";
 import person5 from "../../assets/person5.jpg";
-import Footer from "../Footer";
+import Footer from "../footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 

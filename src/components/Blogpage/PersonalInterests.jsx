@@ -4,7 +4,7 @@ import personalimg1 from "../../assets/personalimg1.png";
 import personalimg2 from "../../assets/personalimg2.jpg";
 import personalimg3 from "../../assets/personalimg3.jpg";
 import personalimg4 from "../../assets/personalimg4.jpg";
-import Footer from "../Footer";
+import Footer from "../footer";
 
 export default function ProfessionalExperience() {
   const expertiseData = [

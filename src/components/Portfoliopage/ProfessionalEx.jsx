@@ -4,7 +4,7 @@ import portfolioimg3 from "../../assets/portfolioimg3.png";
 import portfolioimg4 from "../../assets/portfolioimg4.png";
 import portfolioimg5 from "../../assets/portfolioimg5.png";
 import portfolioimg6 from "../../assets/portfolioimg6.png";
-import Footer from "../Footer";
+import Footer from "../footer";
 
 export default function ProfessionalEx() {
   return (
