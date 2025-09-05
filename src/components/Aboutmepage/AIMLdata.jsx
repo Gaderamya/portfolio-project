@@ -1,9 +1,9 @@
 import React from "react";
-import AIMLimg1 from "../../assets/AIMLimg1.jpg"; // Replace with your actual images
-import AIMLimg2 from "../../assets/AIMLimg2.jpg";
-import AIMLimg3 from "../../assets/AIMLimg3.jpg";
-import AIMLimg4 from "../../assets/AIMLimg4.png";
-import AIMLimg5 from "../../assets/AIMLimg5.jpg";
+import aimlimg1 from "../../assets/aimlimg1.jpg"; // Replace with your actual images
+import aimlimg2 from "../../assets/aimlimg2.jpg";
+import aimlimg3 from "../../assets/aimlimg3.jpg";
+import aimlimg4 from "../../assets/aimlimg4.png";
+import aimlimg5 from "../../assets/aimlimg5.jpg";
 
 export default function AIMLdata() {
   return (
@@ -42,7 +42,7 @@ export default function AIMLdata() {
           {/* Card 1 */}
           <div className="p-3 rounded-[20px] bg-pink-100 shadow-lg">
             <img
-              src={AIMLimg1}
+              src={aimlimg1}
               alt="Family in Toronto"
               className="w-full h-[380px] object-cover rounded-[20px] transition-transform duration-300 ease-in-out
               hover:scale-105 hover:shadow-2xl hover:brightness-105"
@@ -52,7 +52,7 @@ export default function AIMLdata() {
           {/* Card 2 */}
           <div className="p-3 rounded-[20px] bg-blue-100 shadow-lg">
             <img
-              src={AIMLimg2}
+              src={aimlimg2}
               alt="On a bike"
               className="w-full h-[380px] object-cover rounded-[20px] transition-transform duration-300 ease-in-out
               hover:scale-105 hover:shadow-2xl hover:brightness-105"
@@ -62,7 +62,7 @@ export default function AIMLdata() {
           {/* Card 3 */}
           <div className="p-3 rounded-[20px] bg-yellow-100 shadow-lg">
             <img
-              src={AIMLimg3}
+              src={aimlimg3}
               alt="Celebrating with daughter"
               className="w-full h-[380px] object-cover rounded-[20px] transition-transform duration-300 ease-in-out
               hover:scale-105 hover:shadow-2xl hover:brightness-105"
@@ -93,7 +93,7 @@ export default function AIMLdata() {
         style={{ top: "100px", left: "201px" }}
       >
         <img
-          src={AIMLimg4}
+          src={aimlimg4}
           alt="Celebrating with daughter"
           className="w-[865px] h-[470px] object-cover rounded-[30px] transition-transform duration-300 ease-in-out
               hover:scale-105 hover:shadow-2xl hover:brightness-105"
@@ -118,7 +118,7 @@ export default function AIMLdata() {
         <div className="md:w-1/2 flex justify-center ">
           <div className="p-3 rounded-[20px] bg-blue-50  ">
             <img
-              src={AIMLimg5}
+              src={aimlimg5}
               alt="Me"
               className="w-[370px] h-[550px] object-cover 
                       rounded-tl-[60px] rounded-tr-[60px] 

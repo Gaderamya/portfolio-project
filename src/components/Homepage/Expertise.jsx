@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import strategyImg from "../../assets/Strategyicon.png";
+import strategyImg from "../../assets/strategyicon.png";
 import productImg from "../../assets/producticon.png";
-import kpiImg from "../../assets/Kpiicon.png";
-import dataImg from "../../assets/Dataicon.png";
+import kpiImg from "../../assets/kpiicon.png";
+import dataImg from "../../assets/dataicon.png";
 import skillimg2 from "../../assets/skillsimg3.png";
 
 const Expertise = () => {

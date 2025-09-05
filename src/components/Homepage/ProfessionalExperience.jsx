@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ProfileImg from "../../assets/Group2.png";
+import profileimg from "../../assets/group2.png";
 
 export default function ProfessionalExperience() {
   const [visible, setVisible] = useState(false);
@@ -81,7 +81,7 @@ export default function ProfessionalExperience() {
         >
           <div className="w-[450px] h-[570px] overflow-hidden shadow-md transform hover:scale-105 transition duration-500">
             <img
-              src={ProfileImg}
+              src={profileimg}
               alt="Professional"
               className="w-full h-full object-cover"
             />

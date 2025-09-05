@@ -1,5 +1,5 @@
 import React from "react";
-import NutImage from "../../assets/Nut.png"; // <-- replace with your image path
+import nutImage from "../../assets/nut.png"; // <-- replace with your image path
 
 const AboutMeSection = () => {
   return (
@@ -27,7 +27,7 @@ const AboutMeSection = () => {
       <div className="md:w-1/2 flex justify-center">
         <div className=" p-3 rounded-[20px]">
           <img
-            src={NutImage}
+            src={nutImage}
             alt="Me"
             className="w-[90%] max-w-[450px] h-auto object-cover 
               rounded-tl-[80px] rounded-tr-[8px] 

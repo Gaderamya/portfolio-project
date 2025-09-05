@@ -1,5 +1,5 @@
 import React from "react";
-import BeginningsImg from "../../assets/Beginningsimg.png";
+import beginningsImg from "../../assets/beginningsimg.png";
 import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -24,7 +24,7 @@ export default function Beginnings() {
         <div className="relative flex-shrink-0">
           <div className="p-4 rounded-[30px]">
             <img
-              src={BeginningsImg}
+              src={beginningsImg}
               alt="The Beginnings"
               className="w-[80vw] max-w-[439px] h-auto object-cover 
                 rounded-tl-[80px] rounded-tr-[8px] 

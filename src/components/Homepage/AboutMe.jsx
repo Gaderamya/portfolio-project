@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
-import AboutImg from "../../assets/Aboutmeimg.png";
-import Person1 from "../../assets/person1.png";
-import Person2 from "../../assets/person2.jpg";
-import Person3 from "../../assets/person3.jpg";
-import Person4 from "../../assets/person4.jpg";
-import Person5 from "../../assets/person5.jpg";
+import aboutImg from "../../assets/Aboutmeimg.png";
+import person1 from "../../assets/person1.png";
+import person2 from "../../assets/person2.jpg";
+import person3 from "../../assets/person3.jpg";
+import person4 from "../../assets/person4.jpg";
+import person5 from "../../assets/person5.jpg";
 import Footer from "../Footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -33,35 +33,35 @@ export default function AboutSection() {
       text: "Pranay’s strategic mindset, data expertise, and collaborative approach drive impactful results—an asset in BI, Product, or Data & AI.",
       name: "Samantha Poons",
       title: "ATB Financial - Product Person",
-      img: Person1,
+      img: person1,
       bg: "bg-purple-100",
     },
     {
       text: "During his time as my manager at Vendasta, I admired Pranay’s professionalism, steady leadership, and unwavering support—a true mark of a genuine leader.",
       name: "Paige Sutherland",
       title: "7Shifts - Product Marketing",
-      img: Person2,
+      img: person2,
       bg: "bg-blue-100",
     },
     {
       text: "Pranay greatly influenced my growth, guiding me in Tableau and Salesforce while sharpening my problem-solving and data skills. His leadership makes him an exceptional asset to any organization.",
       name: "Randy Mims",
       title: "ACT - Scrum Master",
-      img: Person3,
+      img: person3,
       bg: "bg-pink-100",
     },
     {
       text: "Pranay stands out for asking the right strategic questions, reframing problems, and delivering smarter solutions—making him a trusted, impactful partner for any leader.",
       name: "Simmy Ziv-el",
       title: "FineTune by Prometric - Chief Strategy Officer",
-      img: Person4,
+      img: person4,
       bg: "bg-green-100",
     },
     {
       text: "I’ve known Pranay for over three years, seeing him rise from intern to Director while earning an MBA and completing Harvard’s leadership program—ranking in the top 5% for initiative, analytics, and leadership.",
       name: "Jim Larimore",
       title: "EdTech Consultant",
-      img: Person5,
+      img: person5,
       bg: "bg-yellow-100",
     },
   ];
@@ -127,7 +127,7 @@ export default function AboutSection() {
           <div className="mt-10 flex-1 flex justify-center lg:justify-end">
             <div className="w-[450px] h-[570px] overflow-hidden shadow-md rounded-2xl transform transition duration-700 hover:scale-105 animate-fade-up">
               <img
-                src={AboutImg}
+                src={aboutImg}
                 alt="Professional"
                 className="w-full h-full object-cover"
               />

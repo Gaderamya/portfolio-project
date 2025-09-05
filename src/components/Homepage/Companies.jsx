@@ -1,30 +1,30 @@
 import React from "react";
 
 // Importing images
-import Vendasta from "../../assets/vendasta.png";
-import DataAI from "../../assets/dataimg.png";
-import ActStudent from "../../assets/Actimg.png";
-import CA from "../../assets/Caimg.png";
-import IBM from "../../assets/Ibmimg.png";
-import API from "../../assets/Apiimg.jpg";
-import FortuneBrands from "../../assets/Fortuneimg.png";
-import Sunnybrook from "../../assets/Sunnyimg.png";
-import ATB from "../../assets/Atbimg.png";
-import Divvy from "../../assets/divvyimg.png";
-import FlightCentre from "../../assets/Flight.jpg";
+import vendasta from "../../assets/vendasta.png";
+import dataai from "../../assets/dataimg.png";
+import actStudent from "../../assets/actimg.png";
+import ca from "../../assets/caimg.png";
+import ibm from "../../assets/Ibmimg.png";
+import api from "../../assets/apiimg.jpg";
+import fortuneBrands from "../../assets/fortuneimg.png";
+import sunnybrook from "../../assets/sunnyimg.png";
+import atb from "../../assets/atbimg.png";
+import divvy from "../../assets/divvyimg.png";
+import flightCentre from "../../assets/Flight.jpg";
 
 const companies = [
-  { logo: Vendasta, learning: "Leadership & Product Strategy" },
-  { logo: DataAI, learning: "AI & Data Analytics" },
-  { logo: ActStudent, learning: "Student Engagement" },
-  { logo: CA, learning: "Accounting Automation" },
-  { logo: IBM, learning: "Enterprise Solutions" },
-  { logo: API, learning: "API Integration" },
-  { logo: FortuneBrands, learning: "Brand Management" },
-  { logo: Sunnybrook, learning: "Healthcare Innovations" },
-  { logo: ATB, learning: "Financial Solutions" },
-  { logo: Divvy, learning: "Expense Management" },
-  { logo: FlightCentre, learning: "Travel Operations" },
+  { logo: vendasta, learning: "Leadership & Product Strategy" },
+  { logo: dataai, learning: "AI & Data Analytics" },
+  { logo: actStudent, learning: "Student Engagement" },
+  { logo: ca, learning: "Accounting Automation" },
+  { logo: ibm, learning: "Enterprise Solutions" },
+  { logo: api, learning: "API Integration" },
+  { logo: fortuneBrands, learning: "Brand Management" },
+  { logo: sunnybrook, learning: "Healthcare Innovations" },
+  { logo: atb, learning: "Financial Solutions" },
+  { logo: divvy, learning: "Expense Management" },
+  { logo: flightCentre, learning: "Travel Operations" },
 ];
 
 const Companies = () => {

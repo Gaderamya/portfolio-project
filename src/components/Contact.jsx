@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import Contactimg1 from "../assets/Contactimg1.jpg";
+import contactimg1 from "../assets/contactimg1.jpg";
 import phoneringing from "../assets/phoneringing.mp3";
 import Footer from "./Footer";
 
@@ -140,7 +140,7 @@ const Contact = () => {
           {/* Circular Image */}
           <div className="w-[500px] h-[500px] rounded-full overflow-hidden shadow-lg flex items-center justify-center border-4 border-[#e9ddc3]">
             <img
-              src={Contactimg1}
+              src={contactimg1}
               alt="Contact person"
               className="w-full h-full object-cover transition-transform duration-300 ease-in-out
               hover:scale-105 hover:shadow-2xl hover:brightness-105"

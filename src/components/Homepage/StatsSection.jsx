@@ -1,11 +1,12 @@
-import Frame1 from "../../assets/Frame1.png";
-import Frame2 from "../../assets/Frame2.png";
-import Frame3 from "../../assets/Frame3.png";
-import Frame4 from "../../assets/Frame4.png";
-import vector from "../../assets/Vector.png";
-import Frame6 from "../../assets/Frame6.png";
-import vector2 from "../../assets/Vector2.png";
-import Frame8 from "../../assets/Frame8.png";
+import frame1 from "../../assets/frame1.png";
+import frame2 from "../../assets/frame2.png";
+import frame3 from "../../assets/frame3.png";
+import frame4 from "../../assets/frame4.png";
+import vector from "../../assets/vector.png";
+import frame6 from "../../assets/frame6.png";
+import vector2 from "../../assets/vector2.png";
+import frame8 from "../../assets/frame8.png";
+
 import { useEffect, useState } from "react";
 
 export default function StatsSection() {
@@ -27,10 +28,10 @@ export default function StatsSection() {
   }, []);
 
   const cards = [
-    { bg: "#768A9B", icon: Frame1, label: "Achievement 1", img: Frame2 },
-    { bg: "#A67873", icon: Frame3, label: "Achievement 2", img: Frame4 },
-    { bg: "#5D8C7A", icon: vector, label: "Achievement 3", img: Frame6 },
-    { bg: "#C6785B", icon: vector2, label: "Achievement 4", img: Frame8 },
+    { bg: "#768A9B", icon: frame1, label: "Achievement 1", img: frame2 },
+    { bg: "#A67873", icon: frame3, label: "Achievement 2", img: frame4 },
+    { bg: "#5D8C7A", icon: vector, label: "Achievement 3", img: frame6 },
+    { bg: "#C6785B", icon: vector2, label: "Achievement 4", img: frame8 },
   ];
 
   return (

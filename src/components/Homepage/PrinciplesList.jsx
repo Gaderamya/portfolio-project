@@ -1,10 +1,10 @@
 // 📂 File: PrinciplesList.jsx
 
 import React from "react";
-import Actimg1 from "../../assets/Actimg.png";
-import Flightimg1 from "../../assets/Flight.jpg";
-import Dataimg1 from "../../assets/Dataimg.png";
-import Atbimg1 from "../../assets/Atbimg.png";
+import actimg1 from "../../assets/actimg.png";
+import flightimg1 from "../../assets/flight.jpg";
+import dataimg1 from "../../assets/dataimg.png";
+import atbimg1 from "../../assets/atbimg.png";
 import vendastaimg1 from "../../assets/vendasta.png";
 
 export default function PrinciplesList() {
@@ -22,7 +22,7 @@ export default function PrinciplesList() {
               justify-center border border-black rotate-[15.55deg]"
               >
                 <img
-                  src={Actimg1}
+                  src={actimg1}
                   alt="Act"
                   className="w-full h-full object-cover"
                 />
@@ -97,7 +97,7 @@ export default function PrinciplesList() {
               justify-center border border-black rotate-[15.55deg]"
               >
                 <img
-                  src={Flightimg1}
+                  src={flightimg1}
                   alt="Act"
                   className="w-full h-full object-cover"
                 />
@@ -157,7 +157,7 @@ export default function PrinciplesList() {
               justify-center border border-black rotate-[15.55deg]"
               >
                 <img
-                  src={Dataimg1}
+                  src={dataimg1}
                   alt="Act"
                   className="w-full h-[40px] object-cover"
                 />
@@ -231,7 +231,7 @@ export default function PrinciplesList() {
               justify-center border border-black rotate-[15.55deg]"
               >
                 <img
-                  src={Atbimg1}
+                  src={atbimg1}
                   alt="Act"
                   className="w-full h-full object-cover"
                 />

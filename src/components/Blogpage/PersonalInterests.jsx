@@ -1,15 +1,15 @@
 import React from "react";
 import AboutImg from "../../assets/Aboutmeimg.png";
-import Personalimg1 from "../../assets/personalimg1.png";
-import Personalimg2 from "../../assets/personalimg2.jpg";
-import Personalimg3 from "../../assets/personalimg3.jpg";
-import Personalimg4 from "../../assets/personalimg4.jpg";
+import personalimg1 from "../../assets/personalimg1.png";
+import personalimg2 from "../../assets/personalimg2.jpg";
+import personalimg3 from "../../assets/personalimg3.jpg";
+import personalimg4 from "../../assets/personalimg4.jpg";
 import Footer from "../Footer";
 
 export default function ProfessionalExperience() {
   const expertiseData = [
     {
-      img: Personalimg1,
+      img: personalimg1,
       title: "Adventure activities",
       description:
         "I’m always up for outdoor adventures that challenge me and fuel my curiosity.",
@@ -17,21 +17,21 @@ export default function ProfessionalExperience() {
       background: "#DCBBFF78",
     },
     {
-      img: Personalimg2,
+      img: personalimg2,
       title: "Socializing",
       description:
         "I value social connections and love unwinding with friends through lively gatherings and events.",
       background: "#00FFF217",
     },
     {
-      img: Personalimg3,
+      img: personalimg3,
       title: "Family bonding",
       description:
         "I deeply cherish quality time with family, which keeps me grounded and balanced.",
       background: "#FF3D003D",
     },
     {
-      img: Personalimg4,
+      img: personalimg4,
       title: "Traveling",
       description:
         "I enjoy exploring new cultures and destinations to gain fresh perspectives and inspiration.",

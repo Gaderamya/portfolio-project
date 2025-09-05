@@ -1,7 +1,7 @@
 import React from "react";
-import Img1 from "../../assets/Qimg1.jpg"; // Replace with your actual images
-import Img2 from "../../assets/Qimg2.jpg";
-import Img3 from "../../assets/Qimg3.jpg";
+import img1 from "../../assets/qimg1.jpg"; // Replace with your actual images
+import img2 from "../../assets/qimg2.jpg";
+import img3 from "../../assets/qimg3.jpg";
 
 export default function QuickFacts() {
   return (
@@ -22,7 +22,7 @@ export default function QuickFacts() {
         {/* Card 1 */}
         <div className="p-3 rounded-[20px] bg-pink-100 shadow-lg">
           <img
-            src={Img1}
+            src={img1}
             alt="Family in Toronto"
             className="w-full h-[380px] object-cover rounded-[20px] transition-transform duration-300 ease-in-out
               hover:scale-105 hover:shadow-2xl hover:brightness-105"
@@ -35,7 +35,7 @@ export default function QuickFacts() {
               hover:scale-105 hover:shadow-2xl hover:brightness-105"
         >
           <img
-            src={Img2}
+            src={img2}
             alt="On a bike"
             className="w-full h-[380px] object-cover rounded-[20px] transition-transform duration-300 ease-in-out
               hover:scale-105 hover:shadow-2xl hover:brightness-105"
@@ -45,7 +45,7 @@ export default function QuickFacts() {
         {/* Card 3 */}
         <div className="p-3 rounded-[20px] bg-yellow-100 shadow-lg">
           <img
-            src={Img3}
+            src={img3}
             alt="Celebrating with daughter"
             className="w-full h-[380px] object-cover rounded-[20px] transition-transform duration-300 ease-in-out
               hover:scale-105 hover:shadow-2xl hover:brightness-105"
